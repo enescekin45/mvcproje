@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "index";
+    Layout = "Defauly";
+}
+
+@using mvcproje1.Models.Entity;
+<table class="table table-bordered">
+    <tr>
+        <th>Ders ID</th>
+        <th>Ders Adı</th>
+        <th>İşlemler</th>
+    </tr>
+    <tbody>
+        @foreach (var drs in Model)
+        {
+            <tr>
+                <td>@drs.Dersid</td>
+                <td>@drs.Dersad</td>
+                <td>
+                    <a href="~/Default/Sil/@drs.DersId" class="btn btn-danger">Sil</a>
+                    <a href="~/Default/DersGetir/@drs.DersId" class="btn btn-success">Güncelle</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="~/Default/YeniDers" class="btn btn-primary">Yeni Ders Kaydı</a>

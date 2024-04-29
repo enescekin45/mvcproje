@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="vizeprojeModelStoreContainer" CdmEntityContainer="vizeprojeEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="vizeprojeModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tab_Admin">
+      <EntityTypeMapping TypeName="vizeprojeModel.Tab_Admin">
+        <MappingFragment StoreEntitySet="Tab_Admin">
+          <ScalarProperty Name="Adminid" ColumnName="Adminid" />
+          <ScalarProperty Name="Adminad" ColumnName="Adminad" />
+          <ScalarProperty Name="Adminsoyad" ColumnName="Adminsoyad" />
+          <ScalarProperty Name="Adminkad" ColumnName="Adminkad" />
+          <ScalarProperty Name="Adminsifre" ColumnName="Adminsifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tab_Dersler">
+      <EntityTypeMapping TypeName="vizeprojeModel.Tab_Dersler">
+        <MappingFragment StoreEntitySet="Tab_Dersler">
+          <ScalarProperty Name="Dersid" ColumnName="Dersid" />
+          <ScalarProperty Name="Dersad" ColumnName="Dersad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tab_Kulupler">
+      <EntityTypeMapping TypeName="vizeprojeModel.Tab_Kulupler">
+        <MappingFragment StoreEntitySet="Tab_Kulupler">
+          <ScalarProperty Name="OgrKulupid" ColumnName="OgrKulupid" />
+          <ScalarProperty Name="Ogkulupad" ColumnName="Ogkulupad" />
+          <ScalarProperty Name="Ogkulupkont" ColumnName="Ogkulupkont" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tab_Notlar">
+      <EntityTypeMapping TypeName="vizeprojeModel.Tab_Notlar">
+        <MappingFragment StoreEntitySet="Tab_Notlar">
+          <ScalarProperty Name="NotIid" ColumnName="NotIid" />
+          <ScalarProperty Name="Dersad" ColumnName="Dersad" />
+          <ScalarProperty Name="ograd" ColumnName="ograd" />
+          <ScalarProperty Name="sınav1" ColumnName="sınav1" />
+          <ScalarProperty Name="sınav2" ColumnName="sınav2" />
+          <ScalarProperty Name="sınav3" ColumnName="sınav3" />
+          <ScalarProperty Name="ortalama" ColumnName="ortalama" />
+          <ScalarProperty Name="durum" ColumnName="durum" />
+          <ScalarProperty Name="proje" ColumnName="proje" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tab_Ogrenciler">
+      <EntityTypeMapping TypeName="vizeprojeModel.Tab_Ogrenciler">
+        <MappingFragment StoreEntitySet="Tab_Ogrenciler">
+          <ScalarProperty Name="Ogrid" ColumnName="Ogrid" />
+          <ScalarProperty Name="Ograd" ColumnName="Ograd" />
+          <ScalarProperty Name="Ogrsoyad" ColumnName="Ogrsoyad" />
+          <ScalarProperty Name="Ogrbolum" ColumnName="Ogrbolum" />
+          <ScalarProperty Name="Ogrmezun" ColumnName="Ogrmezun" />
+          <ScalarProperty Name="OgrCinsiyet" ColumnName="OgrCinsiyet" />
+          <ScalarProperty Name="OgrResim" ColumnName="OgrResim" />
+          <ScalarProperty Name="ogrkulup" ColumnName="ogrkulup" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tab_Ogretmenler">
+      <EntityTypeMapping TypeName="vizeprojeModel.Tab_Ogretmenler">
+        <MappingFragment StoreEntitySet="Tab_Ogretmenler">
+          <ScalarProperty Name="Ogrtid" ColumnName="Ogrtid" />
+          <ScalarProperty Name="Ogrtad" ColumnName="Ogrtad" />
+          <ScalarProperty Name="Ogrtsoyad" ColumnName="Ogrtsoyad" />
+          <ScalarProperty Name="Ogrtbolum" ColumnName="Ogrtbolum" />
+          <ScalarProperty Name="Ogrtders" ColumnName="Ogrtders" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
