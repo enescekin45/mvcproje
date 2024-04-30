@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Anasayfa.master.cs" Inherits="Anasayfa" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style8 {
+            width: 100%;
+            height: 36px;
+        }
+        .auto-style10 {
+            width: 125px;
+            background-color:  #33CCFF;
+        }
+        .auto-style18 {
+            width: 700px;
+            height: 36px;
+            text-align: center;
+            
+        }
+        .auto-style19 {
+            width: 170px;
+            background-color:  #33CCFF;
+        }
+        .auto-style20 {
+            width: 164px;
+            background-color:  #33CCFF;
+        }
+        .auto-style22 {
+            background-color: #33CCFF;
+        }
+        .auto-style25 {
+            margin-left: 0px;
+            background-color: #00CCFF;
+        }
+        .auto-style26 {
+            height: 150px;
+            width: 700px;
+        }
+        .auto-style27 {
+            width: 700px;
+            height: 20px;
+        }
+        .auto-style28 {
+            background-color: #0099FF;
+        }
+        .auto-style29 {
+            color: #000000;
+        }
+        .auto-style30 {
+            width: 209px;
+            background-color: #33CCFF;
+        }
+        .auto-style31 {
+            width: 109px;
+            background-color: #33CCFF;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="margin-left: 300px; background-color:#ce7171;" class="auto-style26">
+            <asp:Image ID="Image1" runat="server" CssClass="auto-style25" Height="153px" ImageUrl="~/resim/indir.jpeg" Width="701px" />
+        </div>
+        <div style="margin-left: 300px; width: 700px; height:auto;">&nbsp</div>
+        <div style="margin-left: 300px; background-color: #FFF;" class="auto-style18">
+            <table class="auto-style8">
+                <tr>
+                    <td class="auto-style19"><strong><a href="Anasayfa.aspx"><span class="auto-style29">ANA SAYFA</span></a></strong></td>
+                    <td class="auto-style20"><strong><a href="Ogrenciler.aspx"><span class="auto-style29">Ogrenciler</span></a></strong></td>
+                    <td class="auto-style30"><strong><a href="idari.aspx"><span class="auto-style29">idari</span></a></strong></td>
+                    <td class="auto-style31"><strong><a href="Akademik.aspx"><span class="auto-style29">Akademik</span></a></strong></td>
+                    <td class="auto-style22"><strong><a href="menzunlar.aspx"><span class="auto-style29">Mezunlar</span></a></strong></td>
+                    <td class="auto-style10"><strong><a href="Raporlar.aspx"><span class="auto-style29">Raporlar</span></a><span class="auto-style29"> </span> </strong></td>
+                </tr>
+            </table>
+        </div>
+
+         <div style="margin-left:300px;" class="auto-style27">&nbsp</div>
+        <div style="margin-left:300px;width:700px;height:300px;">
+
+
+        <div style="width:450px;float:left;height:auto;margin-left:50px;" class="auto-style28">
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder2"  runat="Server">
+                    <p>
+                        Hoş Geldiniz</p>
+</asp:ContentPlaceHolder>
+
+        </div>
+            <div>
+            </div>
+        
+            </div>
+
+
+       
+    </form>
+</body>
+</html>
+ 
